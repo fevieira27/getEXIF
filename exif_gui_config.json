@@ -1,0 +1,19 @@
+{
+  "show_filename": false,
+  "gps": true,
+  "location": true,
+  "altitude": true,
+  "date": true,
+  "time": true,
+  "camera": true,
+  "focal": false,
+  "focal35": true,
+  "iso": false,
+  "shutter": false,
+  "aperture": false,
+  "lens": false,
+  "size": false,
+  "color_depth": false,
+  "csv": false,
+  "c2pa": false
+}
