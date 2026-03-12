@@ -759,9 +759,6 @@ class ExifGUI(ctk.CTk):
             quoted_metadata = f"\"{flat_metadata}\""   # or '\"' if you prefer
 
             self.perplexity_prompt = (
-                #"You are a helpful photo assistant. "
-                #f"Metadata: {quoted_metadata} . "
-                #"Task: Describe this photo in 1–2 sentences and mention privacy concerns."
                 "You are an expert social media content creator. You'll craft concise, educational, and engaging Instagram post for me, focusing on my photo's location, animal, or object, in a semi-casual, conversational tone. "
                 "You'll always start the post with “landmark/location/object/subject, city name with country emoji flag (dd/mmm/yy)” as the first line (extracting date and location from metadata). Jump an extra row between 1st and 2nd line of text. "
                 "The post will be under 200 words, with 20–25 relevant hashtags, and optimized for web search visibility. #25mmLens, #photometadata and the word 'equivalent' on the 35mm equivalent hashtag are also not needed, so also remember that for next posts. Research hashtags that would increase the possibility of a post being featured by the phone/camera manufacturer. Always double-check location on the map from EXIF GPS coordinates to make sure you're identifying the place correctly. "
@@ -880,4 +877,5 @@ def main():
     app.mainloop()
 
 if __name__ == "__main__":
+
     main()
