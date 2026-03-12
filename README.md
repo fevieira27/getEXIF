@@ -2,6 +2,8 @@
 
 This Python app is a desktop GUI tool for inspecting privacy‑relevant metadata in image files. It’s built with CustomTkinter and focuses on both classic EXIF data and modern C2PA “Content Credentials” metadata search. It can also generate a prompt including selected metadata to be used on LLMs of your choice.
 
+<img width="622" height="607" alt="image" src="https://github.com/user-attachments/assets/060facbd-acb5-44d9-a64c-a3ba71859fb6" />
+
 
 ## Features
 
