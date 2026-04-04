@@ -19,7 +19,7 @@ except Exception:
     NUMBERS_C2PA_AVAILABLE = False
     print("C2PA import error:", e)
 
-CONFIG_FILE = "exif_gui_config.json"
+CONFIG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "exif_gui_config.json")
 
 # ---------- EXIF helpers ----------
 
